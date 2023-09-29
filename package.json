@@ -1,0 +1,28 @@
+{
+  "name": "clockify-to-clockodo",
+  "version": "1.0.0",
+  "description": "Utility for converting Clockify XLSX time sheet to a CSV import file for clocko:do.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potoku/clockify-to-clockodo.git"
+  },
+  "keywords": [
+    "clockify",
+    "clocko:do",
+    "clockodo"
+  ],
+  "author": "Besim Tschan <besim.tschan@niver.ch> (https://niver.ch/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/potoku/clockify-to-clockodo/issues"
+  },
+  "homepage": "https://github.com/potoku/clockify-to-clockodo#readme",
+  "dependencies": {
+    "csv": "6.3.3",
+    "minimist-lite": "2.2.1"
+  }
+}
